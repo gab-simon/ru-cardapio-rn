@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react';
-import { Appearance, AsyncStorage } from 'react-native';
-import SplashScreen from 'react-native-splash-screen';
+import { Appearance } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 import RoutesScreen from './routesScreens';
+import SplashScreen from 'react-native-splash-screen';
 
 const Routes: React.FC = () => {
   const colorScheme = Appearance.getColorScheme();
