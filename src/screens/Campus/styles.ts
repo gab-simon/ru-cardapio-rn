@@ -31,7 +31,6 @@ export const Logo = styled.Image`
 
 export const ContentSelect = styled.View`
     width: 100%;
-    height: 50%;
     border-radius: 10px;
     margin-top: 10px;
     align-items: center;
@@ -100,9 +99,18 @@ export const TextSubTitle = styled.Text`
     margin-left: 10px;
 `;
 
-export const TextValueTable = styled.Text`
+export const TextValue = styled.Text`
     font-size: 14px;
-    color: ${COLORS.BLACK};
+    fontWeight: 700;
+`;
+
+export const Selection = styled.TouchableOpacity`
+    border-color: ${COLORS.WHITE};
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
 `;
 
 // export const Icon = styled(FontAwesome5)`

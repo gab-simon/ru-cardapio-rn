@@ -8,6 +8,8 @@
  * @format
  */
 
+import AsyncStorage from '@react-native-community/async-storage';
+import moment from 'moment';
 import React, {useEffect, useState, type PropsWithChildren} from 'react';
 import {
   Button,
@@ -28,6 +30,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import HeaderComponent from '../../components/HeaderComponent';
+import { Campus, CampusName } from '../../utils/utils';
 import {
   Container,
   ContentSelect,
@@ -44,9 +47,27 @@ import {
 const HomeView = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const [text, setText] = useState('teste');
-  const widgetData = {
-    text,
-  };
+  const [campus, setCampus] = useState(0);
+  const date = moment().format('DD/MM'); 
+
+
+  async function getCampus() {
+    const campus = await AsyncStorage.getItem('campus');
+    console.log('here', campus);
+    if (campus) {
+      let index = JSON.parse(campus);
+      console.log(CampusName.campus[2]);
+      // setCampus(setCamp);
+    }
+  }
+
+  useEffect(() => {
+    console.log(campus);
+    const campusAsync = AsyncStorage.setItem('campus', JSON.stringify(campus));
+    if (campusAsync !== campus) {
+      getCampus();
+    }
+  }, [campus]);
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
@@ -65,10 +86,7 @@ const HomeView = () => {
     color: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  const handleSubmit = async () => {
-    // Android
-    // SharedStorage.set(JSON.stringify({text}));
-  };
+
 
   return (
     <Container style={backgroundStyle}>
@@ -82,7 +100,7 @@ const HomeView = () => {
           Olá, <TextTitle style={{color: 'green'}}>Bom dia.</TextTitle>
         </TextTitle>
         <TextSubTitle TextValue style={colorStyle}>
-          Confira o cardápio de hoje (24/01)
+          Confira o cardápio de hoje {date} campus {campus}
         </TextSubTitle>
 
         <ContainerInfo>

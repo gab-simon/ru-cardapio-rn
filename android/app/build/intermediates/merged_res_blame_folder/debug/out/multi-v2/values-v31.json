@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ru.app-mergeDebugResources-27:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "/home/simon/Desktop/ru-cardapio-app/android/app/src/main/res/values-v31/themes.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "250",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "554"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "359"
+                    }
+                },
+                {
+                    "source": "/home/simon/Desktop/ru-cardapio-app/android/app/src/main/res/values-v31/styles.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,367",
+                        "endLines": "7,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "361,737"
+                    },
+                    "to": {
+                        "startLines": "6,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "364,713",
+                        "endLines": "11,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "708,1083"
+                    }
+                }
+            ]
+        }
+    ]
+}

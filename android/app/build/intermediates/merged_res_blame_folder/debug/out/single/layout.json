@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.ru.app-mergeDebugResources-28:/layout/my_widget.xml",
+        "source": "com.ru.app-main-31:/layout/my_widget.xml"
+    },
+    {
+        "merged": "com.ru.app-mergeDebugResources-28:/layout/new_app_widget.xml",
+        "source": "com.ru.app-main-31:/layout/new_app_widget.xml"
+    },
+    {
+        "merged": "com.ru.app-mergeDebugResources-28:/layout/launch_screen.xml",
+        "source": "com.ru.app-main-31:/layout/launch_screen.xml"
+    }
+]

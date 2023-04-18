@@ -1,0 +1,380 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] /home/simon/.gradle/caches/transforms-3/cc02d851f2f8a1bd3a525b007d80713c/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [:react-native-community_async-storage] /home/simon/Desktop/ru-cardapio-app/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_picker] /home/simon/Desktop/ru-cardapio-app/node_modules/@react-native-community/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-splash-screen] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.70.6] /home/simon/.gradle/caches/transforms-3/0b301338bfca4eda09b7a424369f8d5b/transformed/jetified-react-native-0.70.6-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/simon/.gradle/caches/transforms-3/a2a887a6191775c5754e1ce01d3de4dd/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/simon/.gradle/caches/transforms-3/66bf656e5ec195c76dc3f743e88c5c61/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/simon/.gradle/caches/transforms-3/996f0e76a5dde57c70964f43a52bb6b4/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:hermes-engine:0.70.6] /home/simon/.gradle/caches/transforms-3/d51efac98f494014a0c1a438175277ca/transformed/jetified-hermes-engine-0.70.6-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-reanimated/android/build/.transforms/97501a0ea8053dabef122dfb81b7bae0/transformed/jetified-react-native-reanimated-70-hermes/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/simon/.gradle/caches/transforms-3/dd6953b21e8d5bb33a2bc25488c8ff2a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] /home/simon/.gradle/caches/transforms-3/5ffa65f211201410e47ddcbe293e35f6/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/simon/.gradle/caches/transforms-3/51cd9ea490639c958168a224f4141bfd/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/simon/.gradle/caches/transforms-3/68665f3a54548d6070eb372b19b9e20d/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/simon/.gradle/caches/transforms-3/cae2bb8a8e26a2cf57ff98c1c1faf2ba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/simon/.gradle/caches/transforms-3/ef30eac0e69c579ec10fa2b8a84f316e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/simon/.gradle/caches/transforms-3/d16ab39934039a9031a71482cb63c1d5/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/simon/.gradle/caches/transforms-3/f03ea442f1f8a2b213e2cf776b289b0f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/simon/.gradle/caches/transforms-3/4ee2f7bd5673804199349aaa87abc5d9/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /home/simon/.gradle/caches/transforms-3/279b25ca9f7ac2e5a536afdfcd880872/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/simon/.gradle/caches/transforms-3/7c9730f6f190adaea83327b1668a15c7/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/simon/.gradle/caches/transforms-3/419048b2134d2f13ac99af1cb5602339/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/simon/.gradle/caches/transforms-3/57fa9bbf6396c086090672c18a928620/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/simon/.gradle/caches/transforms-3/043c4ef74738ca27757ddebd83af28d6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/simon/.gradle/caches/transforms-3/2ede848ec651be0444658dbb078f561a/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/simon/.gradle/caches/transforms-3/de23b7463b199391a360c4ceb97a0965/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/simon/.gradle/caches/transforms-3/7ab936b092f052fe71846c9d68c23e61/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/simon/.gradle/caches/transforms-3/43fe86eef8610bb3213fa1fed1bdce5b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/simon/.gradle/caches/transforms-3/a8cc791feb07201618bec009afd4f26f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/simon/.gradle/caches/transforms-3/5df5cbd3ac91322da57d0e4261b68e9a/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/simon/.gradle/caches/transforms-3/2c8db370685b6310eaf6589ed16648ad/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /home/simon/.gradle/caches/transforms-3/10ba7c438797d9dd34d3ba1f906f6ddb/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/simon/.gradle/caches/transforms-3/b92811bbae3be9faa4ddf7b041d157ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/simon/.gradle/caches/transforms-3/c7055cac0ad816494335d1e9a6192811/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/simon/.gradle/caches/transforms-3/e641cdf7e984184d301c993af6c02f0f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/simon/.gradle/caches/transforms-3/d3cac9dc9f6396c096082c86bc22f889/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/simon/.gradle/caches/transforms-3/bbf20d9310900580a4e15c0fbbac9d41/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/simon/.gradle/caches/transforms-3/a2511a1e1015e9e472dbcadf9ba004ea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/simon/.gradle/caches/transforms-3/3036b28ccd7576bcc4fa6cb707535458/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/simon/.gradle/caches/transforms-3/5313258b834c291e4fe959251e67f61d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/simon/.gradle/caches/transforms-3/225f410c93a734c43c2e7378dc734176/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/simon/.gradle/caches/transforms-3/da47f497fc5e118a43d1c225c15c0d48/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/simon/.gradle/caches/transforms-3/eadf1898061630c99eaefd9c1ecdc2a5/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/simon/.gradle/caches/transforms-3/edfe038c64f27ca6c3a1cbade66a2d94/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/simon/.gradle/caches/transforms-3/cd15b8138bca4a1c3f00719ad1cc2228/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/simon/.gradle/caches/transforms-3/c6394d8875f2f43bb81da019fee63f21/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/simon/.gradle/caches/transforms-3/630f804a1d731f251d4a74fcac12f0fe/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/simon/.gradle/caches/transforms-3/29d6c92848dee3b675a773b32d3cbfee/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/simon/.gradle/caches/transforms-3/ce4cfba2788b8a906b4ce56347640386/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/simon/.gradle/caches/transforms-3/991b9da50e4ef90d9259d762065e3885/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/simon/.gradle/caches/transforms-3/cefad679a938bb474b866ced2f1014d6/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/simon/.gradle/caches/transforms-3/a9e32e1a4913c242fb895ffe152e13f2/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/simon/.gradle/caches/transforms-3/349d6da0841050c840aefb3df11a798f/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/simon/.gradle/caches/transforms-3/dd6205b6ea0b1c5f9f3e642872b76005/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/simon/.gradle/caches/transforms-3/2f88746b051bbfdb07b5d7a9561efddc/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/simon/.gradle/caches/transforms-3/1bb0a27314645f0f8080213c18602378/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/simon/.gradle/caches/transforms-3/a70d5479db20974b0bf1db2def3fc8a2/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/simon/.gradle/caches/transforms-3/886cf3ed4e938581884cbbe5dadae5a8/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/simon/.gradle/caches/transforms-3/8566821150f02fe6c7b55eaf3aa7aee3/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/simon/.gradle/caches/transforms-3/75d24f1e62fc6c069be84ef9fefdea0e/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/simon/.gradle/caches/transforms-3/f7af0de3442080ac274d9c3e9ea09759/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/simon/.gradle/caches/transforms-3/5d77396e0f2014a0dfabc7e925c2918e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:3:5-21
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:3:5-21
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:7:5-39:19
+MERGED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:7:5-39:19
+MERGED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:7:5-39:19
+MERGED from [com.facebook.react:react-native:0.70.6] /home/simon/.gradle/caches/transforms-3/0b301338bfca4eda09b7a424369f8d5b/transformed/jetified-react-native-0.70.6-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.70.6] /home/simon/.gradle/caches/transforms-3/0b301338bfca4eda09b7a424369f8d5b/transformed/jetified-react-native-0.70.6-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/simon/.gradle/caches/transforms-3/5ffa65f211201410e47ddcbe293e35f6/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/simon/.gradle/caches/transforms-3/5ffa65f211201410e47ddcbe293e35f6/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/simon/.gradle/caches/transforms-3/10ba7c438797d9dd34d3ba1f906f6ddb/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/simon/.gradle/caches/transforms-3/10ba7c438797d9dd34d3ba1f906f6ddb/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/simon/.gradle/caches/transforms-3/a2511a1e1015e9e472dbcadf9ba004ea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/simon/.gradle/caches/transforms-3/a2511a1e1015e9e472dbcadf9ba004ea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/simon/.gradle/caches/transforms-3/dd6205b6ea0b1c5f9f3e642872b76005/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/simon/.gradle/caches/transforms-3/dd6205b6ea0b1c5f9f3e642872b76005/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/simon/.gradle/caches/transforms-3/10ba7c438797d9dd34d3ba1f906f6ddb/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:9:9-36
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:9:9-36
+	android:theme
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:8:9-40
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:8:9-40
+receiver#com.ru.MyWidget
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:14:9-24:20
+	android:exported
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:15:13-37
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:17:13-19:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:18:17-84
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:18:25-81
+meta-data#android.appwidget.provider
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:21:13-23:58
+	android:resource
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:23:17-55
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:22:17-58
+activity#com.ru.MainActivity
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:26:9-38:20
+	android:label
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:30:13-45
+	android:launchMode
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:31:13-44
+	android:windowSoftInputMode
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:32:13-55
+	android:exported
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:29:13-36
+	android:configChanges
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:28:13-122
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:27:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.1] /home/simon/.gradle/caches/transforms-3/cc02d851f2f8a1bd3a525b007d80713c/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /home/simon/.gradle/caches/transforms-3/cc02d851f2f8a1bd3a525b007d80713c/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [:react-native-community_async-storage] /home/simon/Desktop/ru-cardapio-app/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /home/simon/Desktop/ru-cardapio-app/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /home/simon/Desktop/ru-cardapio-app/node_modules/@react-native-community/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /home/simon/Desktop/ru-cardapio-app/node_modules/@react-native-community/picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.70.6] /home/simon/.gradle/caches/transforms-3/0b301338bfca4eda09b7a424369f8d5b/transformed/jetified-react-native-0.70.6-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.70.6] /home/simon/.gradle/caches/transforms-3/0b301338bfca4eda09b7a424369f8d5b/transformed/jetified-react-native-0.70.6-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/simon/.gradle/caches/transforms-3/a2a887a6191775c5754e1ce01d3de4dd/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/simon/.gradle/caches/transforms-3/a2a887a6191775c5754e1ce01d3de4dd/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/simon/.gradle/caches/transforms-3/66bf656e5ec195c76dc3f743e88c5c61/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/simon/.gradle/caches/transforms-3/66bf656e5ec195c76dc3f743e88c5c61/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/simon/.gradle/caches/transforms-3/996f0e76a5dde57c70964f43a52bb6b4/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/simon/.gradle/caches/transforms-3/996f0e76a5dde57c70964f43a52bb6b4/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:hermes-engine:0.70.6] /home/simon/.gradle/caches/transforms-3/d51efac98f494014a0c1a438175277ca/transformed/jetified-hermes-engine-0.70.6-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:hermes-engine:0.70.6] /home/simon/.gradle/caches/transforms-3/d51efac98f494014a0c1a438175277ca/transformed/jetified-hermes-engine-0.70.6-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-reanimated/android/build/.transforms/97501a0ea8053dabef122dfb81b7bae0/transformed/jetified-react-native-reanimated-70-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/simon/Desktop/ru-cardapio-app/node_modules/react-native-reanimated/android/build/.transforms/97501a0ea8053dabef122dfb81b7bae0/transformed/jetified-react-native-reanimated-70-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/simon/.gradle/caches/transforms-3/dd6953b21e8d5bb33a2bc25488c8ff2a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/simon/.gradle/caches/transforms-3/dd6953b21e8d5bb33a2bc25488c8ff2a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] /home/simon/.gradle/caches/transforms-3/5ffa65f211201410e47ddcbe293e35f6/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/simon/.gradle/caches/transforms-3/5ffa65f211201410e47ddcbe293e35f6/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/simon/.gradle/caches/transforms-3/51cd9ea490639c958168a224f4141bfd/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/simon/.gradle/caches/transforms-3/51cd9ea490639c958168a224f4141bfd/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/simon/.gradle/caches/transforms-3/68665f3a54548d6070eb372b19b9e20d/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/simon/.gradle/caches/transforms-3/68665f3a54548d6070eb372b19b9e20d/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/simon/.gradle/caches/transforms-3/cae2bb8a8e26a2cf57ff98c1c1faf2ba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/simon/.gradle/caches/transforms-3/cae2bb8a8e26a2cf57ff98c1c1faf2ba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/simon/.gradle/caches/transforms-3/ef30eac0e69c579ec10fa2b8a84f316e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/simon/.gradle/caches/transforms-3/ef30eac0e69c579ec10fa2b8a84f316e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] /home/simon/.gradle/caches/transforms-3/d16ab39934039a9031a71482cb63c1d5/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/simon/.gradle/caches/transforms-3/d16ab39934039a9031a71482cb63c1d5/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/simon/.gradle/caches/transforms-3/f03ea442f1f8a2b213e2cf776b289b0f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/simon/.gradle/caches/transforms-3/f03ea442f1f8a2b213e2cf776b289b0f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/simon/.gradle/caches/transforms-3/4ee2f7bd5673804199349aaa87abc5d9/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/simon/.gradle/caches/transforms-3/4ee2f7bd5673804199349aaa87abc5d9/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/simon/.gradle/caches/transforms-3/279b25ca9f7ac2e5a536afdfcd880872/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/simon/.gradle/caches/transforms-3/279b25ca9f7ac2e5a536afdfcd880872/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/simon/.gradle/caches/transforms-3/7c9730f6f190adaea83327b1668a15c7/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/simon/.gradle/caches/transforms-3/7c9730f6f190adaea83327b1668a15c7/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/simon/.gradle/caches/transforms-3/419048b2134d2f13ac99af1cb5602339/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/simon/.gradle/caches/transforms-3/419048b2134d2f13ac99af1cb5602339/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/simon/.gradle/caches/transforms-3/57fa9bbf6396c086090672c18a928620/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/simon/.gradle/caches/transforms-3/57fa9bbf6396c086090672c18a928620/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/simon/.gradle/caches/transforms-3/043c4ef74738ca27757ddebd83af28d6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/simon/.gradle/caches/transforms-3/043c4ef74738ca27757ddebd83af28d6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/simon/.gradle/caches/transforms-3/2ede848ec651be0444658dbb078f561a/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/simon/.gradle/caches/transforms-3/2ede848ec651be0444658dbb078f561a/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/simon/.gradle/caches/transforms-3/de23b7463b199391a360c4ceb97a0965/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/simon/.gradle/caches/transforms-3/de23b7463b199391a360c4ceb97a0965/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/simon/.gradle/caches/transforms-3/7ab936b092f052fe71846c9d68c23e61/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/simon/.gradle/caches/transforms-3/7ab936b092f052fe71846c9d68c23e61/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/simon/.gradle/caches/transforms-3/43fe86eef8610bb3213fa1fed1bdce5b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/simon/.gradle/caches/transforms-3/43fe86eef8610bb3213fa1fed1bdce5b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/simon/.gradle/caches/transforms-3/a8cc791feb07201618bec009afd4f26f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/simon/.gradle/caches/transforms-3/a8cc791feb07201618bec009afd4f26f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/simon/.gradle/caches/transforms-3/5df5cbd3ac91322da57d0e4261b68e9a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/simon/.gradle/caches/transforms-3/5df5cbd3ac91322da57d0e4261b68e9a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/simon/.gradle/caches/transforms-3/2c8db370685b6310eaf6589ed16648ad/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/simon/.gradle/caches/transforms-3/2c8db370685b6310eaf6589ed16648ad/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /home/simon/.gradle/caches/transforms-3/10ba7c438797d9dd34d3ba1f906f6ddb/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/simon/.gradle/caches/transforms-3/10ba7c438797d9dd34d3ba1f906f6ddb/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/simon/.gradle/caches/transforms-3/b92811bbae3be9faa4ddf7b041d157ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/simon/.gradle/caches/transforms-3/b92811bbae3be9faa4ddf7b041d157ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/simon/.gradle/caches/transforms-3/c7055cac0ad816494335d1e9a6192811/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/simon/.gradle/caches/transforms-3/c7055cac0ad816494335d1e9a6192811/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/simon/.gradle/caches/transforms-3/e641cdf7e984184d301c993af6c02f0f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/simon/.gradle/caches/transforms-3/e641cdf7e984184d301c993af6c02f0f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/simon/.gradle/caches/transforms-3/d3cac9dc9f6396c096082c86bc22f889/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/simon/.gradle/caches/transforms-3/d3cac9dc9f6396c096082c86bc22f889/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/simon/.gradle/caches/transforms-3/bbf20d9310900580a4e15c0fbbac9d41/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/simon/.gradle/caches/transforms-3/bbf20d9310900580a4e15c0fbbac9d41/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/simon/.gradle/caches/transforms-3/a2511a1e1015e9e472dbcadf9ba004ea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/simon/.gradle/caches/transforms-3/a2511a1e1015e9e472dbcadf9ba004ea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/simon/.gradle/caches/transforms-3/3036b28ccd7576bcc4fa6cb707535458/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/simon/.gradle/caches/transforms-3/3036b28ccd7576bcc4fa6cb707535458/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/simon/.gradle/caches/transforms-3/5313258b834c291e4fe959251e67f61d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/simon/.gradle/caches/transforms-3/5313258b834c291e4fe959251e67f61d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/simon/.gradle/caches/transforms-3/225f410c93a734c43c2e7378dc734176/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/simon/.gradle/caches/transforms-3/225f410c93a734c43c2e7378dc734176/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/simon/.gradle/caches/transforms-3/da47f497fc5e118a43d1c225c15c0d48/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/simon/.gradle/caches/transforms-3/da47f497fc5e118a43d1c225c15c0d48/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/simon/.gradle/caches/transforms-3/eadf1898061630c99eaefd9c1ecdc2a5/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/simon/.gradle/caches/transforms-3/eadf1898061630c99eaefd9c1ecdc2a5/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/simon/.gradle/caches/transforms-3/edfe038c64f27ca6c3a1cbade66a2d94/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/simon/.gradle/caches/transforms-3/edfe038c64f27ca6c3a1cbade66a2d94/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/simon/.gradle/caches/transforms-3/cd15b8138bca4a1c3f00719ad1cc2228/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/simon/.gradle/caches/transforms-3/cd15b8138bca4a1c3f00719ad1cc2228/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/simon/.gradle/caches/transforms-3/c6394d8875f2f43bb81da019fee63f21/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/simon/.gradle/caches/transforms-3/c6394d8875f2f43bb81da019fee63f21/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/simon/.gradle/caches/transforms-3/630f804a1d731f251d4a74fcac12f0fe/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/simon/.gradle/caches/transforms-3/630f804a1d731f251d4a74fcac12f0fe/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/simon/.gradle/caches/transforms-3/29d6c92848dee3b675a773b32d3cbfee/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/simon/.gradle/caches/transforms-3/29d6c92848dee3b675a773b32d3cbfee/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/simon/.gradle/caches/transforms-3/ce4cfba2788b8a906b4ce56347640386/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/simon/.gradle/caches/transforms-3/ce4cfba2788b8a906b4ce56347640386/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/simon/.gradle/caches/transforms-3/991b9da50e4ef90d9259d762065e3885/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/simon/.gradle/caches/transforms-3/991b9da50e4ef90d9259d762065e3885/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/simon/.gradle/caches/transforms-3/cefad679a938bb474b866ced2f1014d6/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/simon/.gradle/caches/transforms-3/cefad679a938bb474b866ced2f1014d6/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/simon/.gradle/caches/transforms-3/a9e32e1a4913c242fb895ffe152e13f2/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/simon/.gradle/caches/transforms-3/a9e32e1a4913c242fb895ffe152e13f2/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/simon/.gradle/caches/transforms-3/349d6da0841050c840aefb3df11a798f/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/simon/.gradle/caches/transforms-3/349d6da0841050c840aefb3df11a798f/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/simon/.gradle/caches/transforms-3/dd6205b6ea0b1c5f9f3e642872b76005/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /home/simon/.gradle/caches/transforms-3/dd6205b6ea0b1c5f9f3e642872b76005/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/simon/.gradle/caches/transforms-3/2f88746b051bbfdb07b5d7a9561efddc/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/simon/.gradle/caches/transforms-3/2f88746b051bbfdb07b5d7a9561efddc/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/simon/.gradle/caches/transforms-3/1bb0a27314645f0f8080213c18602378/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/simon/.gradle/caches/transforms-3/1bb0a27314645f0f8080213c18602378/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/simon/.gradle/caches/transforms-3/a70d5479db20974b0bf1db2def3fc8a2/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/simon/.gradle/caches/transforms-3/a70d5479db20974b0bf1db2def3fc8a2/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/simon/.gradle/caches/transforms-3/886cf3ed4e938581884cbbe5dadae5a8/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/simon/.gradle/caches/transforms-3/886cf3ed4e938581884cbbe5dadae5a8/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/simon/.gradle/caches/transforms-3/8566821150f02fe6c7b55eaf3aa7aee3/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/simon/.gradle/caches/transforms-3/8566821150f02fe6c7b55eaf3aa7aee3/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/simon/.gradle/caches/transforms-3/75d24f1e62fc6c069be84ef9fefdea0e/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/simon/.gradle/caches/transforms-3/75d24f1e62fc6c069be84ef9fefdea0e/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/simon/.gradle/caches/transforms-3/f7af0de3442080ac274d9c3e9ea09759/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/simon/.gradle/caches/transforms-3/f7af0de3442080ac274d9c3e9ea09759/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/simon/.gradle/caches/transforms-3/5d77396e0f2014a0dfabc7e925c2918e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/simon/.gradle/caches/transforms-3/5d77396e0f2014a0dfabc7e925c2918e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /home/simon/Desktop/ru-cardapio-app/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /home/simon/.gradle/caches/transforms-3/5c134ec60c99bc4472acf158e69367e7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/simon/.gradle/caches/transforms-3/6077c294ea5f776eea17340baf79fd76/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/simon/.gradle/caches/transforms-3/1ab8142815e579fc3a57db51ed8d485d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/simon/.gradle/caches/transforms-3/2da0a28b356d8d8eedfc6f2d7e5c4b20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

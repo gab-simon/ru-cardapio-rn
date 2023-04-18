@@ -1,43 +1,38 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
+import AsyncStorage from '@react-native-community/async-storage';
+import React, {useEffect} from 'react';
+import {StatusBar, StyleSheet, useColorScheme} from 'react-native';
 
-import React, {type PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 import HeaderComponent from '../../components/HeaderComponent';
 import {
   Container,
-  ContentSelect,
   Content,
-  TextWelCome,
-  TextTitle,
+  ContentSelect,
   ContentSelections,
+  Selection,
+  TextTitle,
+  TextValue,
+  TextWelCome,
 } from './styles';
 
 const CampusView = () => {
   const isDarkMode = useColorScheme() === 'dark';
+  const [Campus, setCampus] = React.useState(0);
+  async function getCampus() {
+    const campus = await AsyncStorage.getItem('campus');
+    console.log('here',campus);
+    if (campus) {
+      setCampus(JSON.parse(campus));
+    }
+  }
+
+  useEffect(() => {
+    console.log(Campus);
+    const campusAsync = AsyncStorage.setItem('campus', JSON.stringify(Campus));
+    if(campusAsync !== Campus){
+      getCampus();
+    }
+  }, [Campus]);
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
@@ -52,6 +47,29 @@ const CampusView = () => {
     color: isDarkMode ? Colors.lighter : Colors.darker,
   };
 
+  const colorStylee = {
+    color: !isDarkMode ? Colors.lighter : Colors.darker,
+  };
+
+  const campus = [
+    {
+      id: 1,
+      name: 'Politécnico',
+    },
+    {
+      id: 2,
+      name: 'Reitoria',
+    },
+    {
+      id: 3,
+      name: 'Agrarias',
+    },
+    {
+      id: 4,
+      name: 'Botânico',
+    },
+  ];
+
   return (
     <Container style={backgroundStyle}>
       <HeaderComponent></HeaderComponent>
@@ -61,20 +79,29 @@ const CampusView = () => {
       />
       <Content>
         <TextWelCome style={colorStyle}>
-          Coloque o Widget do aplicativo, para ter acesso ao cardápio a todo momento 😋
+          Coloque o Widget do aplicativo, para ter acesso ao cardápio a todo
+          momento 😋
         </TextWelCome>
 
         <ContentSelections>
           <TextTitle style={colorStyle}>Selecione um campus</TextTitle>
-          <ContentSelect style={selectStyle}></ContentSelect>
+
+          <ContentSelect style={selectStyle}>
+            {campus.map(campus => (
+              <Selection
+                key={campus.id}
+                onPress={() => setCampus(campus.id)}
+                style={
+                  Campus === campus.id
+                    ? {backgroundColor: '#D9A9FF'}
+                    : {backgroundColor: 'transparent'}
+                }>
+                <TextValue style={colorStylee}>{campus.name}</TextValue>
+              </Selection>
+            ))}
+          </ContentSelect>
         </ContentSelections>
       </Content>
-
-      {/* <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-        </View> */}
     </Container>
   );
 };
